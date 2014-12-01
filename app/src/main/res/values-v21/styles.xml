@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#ff537e99</item>
+
+        <item name="android:colorPrimaryDark">#ff4d6c7f</item>
+        <!--<item name="android:colorPrimary">#ff75bacc</item>
+        <item name="android:colorPrimaryDark">#ff6fa4b2</item>-->
+        <!--<item name="android:colorPrimary">#ffa8ccc4</item>
+        <item name="android:colorPrimaryDark">#ff3d9986</item>-->
+    </style>
+</resources>

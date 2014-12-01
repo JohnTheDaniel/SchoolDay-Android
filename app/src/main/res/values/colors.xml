@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="complementary">#d4d206</color>
+    <!--https://color.adobe.com/create/color-wheel/?base=3&rule=Triad&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.5,0.20526605642879775,0.2062071518377181,0.8333333333333334,0.8219491064003583,0.025059531623812713,0.3272806478753823,0.495198216062511,0.6000000000000001,0.8,0.4084256902860764,0.4096760002458245,0.30072078379599887,0.4234201122980789,0.5&swatchOrder=0,1,3,2,4-->
+</resources>
