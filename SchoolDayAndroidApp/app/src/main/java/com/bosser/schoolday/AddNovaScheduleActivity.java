@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
 import com.bosser.schoolday.R;
@@ -16,6 +17,9 @@ public class AddNovaScheduleActivity extends ActionBarActivity {
         setContentView(R.layout.activity_add_nova_schedule);
 
         WebView novaScriptRunner = (WebView) findViewById(R.id.nova_script_runner);
+        novaScriptRunner.getSettings().setJavaScriptEnabled(true);
+        novaScriptRunner.setWebChromeClient(new WebChromeClient());
+        novaScriptRunner.loadUrl("javascript:alert('Hello World!')");
     }
 
 
